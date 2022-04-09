@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="150sp"
+            android:layout_height="75sp"
+            android:background="@drawable/button_draw1"
+            android:text="버튼 1"
+            android:textColor="#ff5722" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="150sp"
+            android:layout_height="75sp"
+            android:layout_marginTop="50sp"
+            android:background="@drawable/button_draw2"
+            android:text="버튼 2"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2018038068 권성민" />
+
+    </LinearLayout>
+
+</LinearLayout>
